@@ -90,15 +90,7 @@ nav img{
     background-color: white;
     margin: 6px 0;
 }
-.dropdown:hover .bar1{
-	background-color: black;	
-}
-.dropdown:hover .bar2{
-	background-color: black;	
-}
-.dropdown:hover .bar3{
-	background-color: black;	
-}
+
 
 .drop-content {
     display: none;
