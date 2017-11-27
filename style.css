@@ -71,6 +71,73 @@ nav img{
 
 
 /*nav small screen*/
+@media (max-width: 1920px){
+	.top-banner{
+		width:60%;
+		display: block;
+		margin: 0 auto;
+		height: auto;
+	}
+	nav ul li a {
+	text-decoration: none;
+	float: left;
+	color: white;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 0.7%;
+}
+nav ul li a:hover {
+	text-decoration: none;
+	color: black;
+	float: left;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 1.7%;
+}
+nav{
+	width: 100%;
+	padding: 0%;
+	margin: 0%;
+	height: 50px;
+	background-color: #0099d4;
+	box-shadow: 2px 2px 10px #CCC;
+}
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#home{
+	margin-left: 125px;
+}
+.blank_nav{
+	height: 30px;
+	width: 100%;
+	background-color: #F7F7F7;
+}
+nav img{
+	height: 80px;
+	width: auto;
+	position: absolute; 
+	top: 5px; 
+	left:14px;
+
+}
+.logo_back{
+	width: 90px;
+	height: 90px;
+	position: absolute; 
+	top: 0px; 
+	left:28px;
+	background-color: #F7F7F7;
+
+}
+.dropdown{
+	display: none;
+	float: left;
+}
+
+}
 @media (max-width: 640px){
 	.dropdown{
 	display: inline-block;
@@ -79,6 +146,10 @@ nav img{
 	border: none;
 	text-decoration: none;
 	background-color:#0099d4; 
+}
+.top-banner{
+	width: 100%;
+	height: auto;
 }
 .dropbut{
 	padding-right: 10px;
