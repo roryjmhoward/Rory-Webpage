@@ -142,6 +142,12 @@ float: left;
     height: auto;
 
 }
+.port {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+}
 nav ul li a {
 text-decoration: none;
 float: left;
@@ -252,6 +258,12 @@ background-color:#0099d4;
 width: 100%;
 height: auto;
 }
+    .port {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        height: auto;
+    }
 .dropbut{
 padding-right: 10px;
 padding-top: 5px;

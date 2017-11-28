@@ -25,5 +25,19 @@ function carousel() {
     slideIndex++;
     if (slideIndex > x.length) { slideIndex = 1 }
     x[slideIndex - 1].style.display = "block";
-    setTimeout(carousel, 4000); // Change image every 2 seconds
+    setTimeout(carousel, 4000); // Change image every 4 seconds
+}
+var slideIndex2 = 0;
+carousel2();
+
+function carousel2() {
+    var p;
+    var q = document.getElementsByClassName("slide2");
+    for (p = 0; p < q.length; p++) {
+        q[p].style.display = "none";
+    }
+    slideIndex2++;
+    if (slideIndex2 > q.length) { slideIndex2 = 1 }
+    q[slideIndex2 - 1].style.display = "block";
+    setTimeout(carousel2, 4000); // Change image every 4 seconds
 }
