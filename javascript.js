@@ -39,5 +39,5 @@ function carousel2() {
     slideIndex2++;
     if (slideIndex2 > q.length) { slideIndex2 = 1 }
     q[slideIndex2 - 1].style.display = "block";
-    setTimeout(carousel2, 4000); // Change image every 4 seconds
+    setTimeout(carousel2, 5000); // Change image every 4 seconds
 }
