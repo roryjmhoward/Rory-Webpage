@@ -1,4 +1,7 @@
-function dropdown(){
+function myFunction(x) {
+    x.classList.toggle("change");
+}
+function dropdown() {
 	document.getElementById('mydropdown').classList.toggle("show");
 }
 window.onclick = function(event){
