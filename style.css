@@ -8,15 +8,15 @@ h1{
     padding:0;
 }
 .container {
-    width: 70%;
+    width: 68%;
     box-shadow: 2px 2px 10px #CCC;
     display: block;
     margin: 0 auto;
     height: auto;
-    padding: 5px;
-    padding-top:3.5%;
-    margin-top:20px;
-    
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3.5%;
+    margin-top: 20px;
 }
 
 /* nav bar start*/
@@ -80,11 +80,10 @@ float: left;
 /*nav small screen*/
 @media (max-width: 1920px){
 .top-banner{
-width:90%;
+width:100%;
 display: block;
 margin: 0 auto;
 height: auto;
-left: 17.6%;
 
 }
 nav ul li a {
@@ -148,7 +147,7 @@ float: left;
     .container {
         width: 100%;
         height: auto;
-        
+        padding:0;
         box-shadow: 2px 2px 10px #CCC;
     }
 .dropdown{
