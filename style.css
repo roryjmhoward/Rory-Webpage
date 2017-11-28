@@ -13,12 +13,20 @@ h1{
     display: block;
     margin: 0 auto;
     height: auto;
-    padding-left: 5%;
-    padding-right: 5%;
+
     padding-top: 3.5%;
     margin-top: 20px;
 }
-
+.backdrop-cloud{
+    background-image: url(img/backdrop.png);
+    background-size: cover;
+    opacity: 0.7;
+   
+}
+.backdrop-plain {
+    padding-left: 5%;
+    padding-right: 5%;
+}
 /* nav bar start*/
 nav ul li a {
 text-decoration: none;
