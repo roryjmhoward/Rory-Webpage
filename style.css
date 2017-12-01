@@ -95,7 +95,7 @@ margin: 0;
 padding: 0;
 }
 #home{
-margin-left: 39%;
+margin-left: 30%;
 }
 .blank_nav{
 height: 30px;
@@ -110,15 +110,14 @@ top: 5px;
 left:-15%;
 }
 .logo_back {
+    position: fixed;
+    top: 0;
     width: 90px;
     height: 90px;
-    position: absolute;
     top: 0px;
-    max-width:90px;
-    min-width:0px;
-    
+    max-width: 90px;
+    min-width: 0px;
     background-color: #F7F7F7;
-  
 }
 .dropdown{
 display: none;
@@ -137,27 +136,6 @@ float: left;
         margin-top: 110px;
     }
 
-    #home {
-        margin-left: 40%;
-    }
-
-    .nav-img {
-        height: 80px;
-        width: auto;
-        position: absolute;
-        top: 5px;
-        left: -15%;
-    }
-
-    .logo_back {
-        width: 90px;
-        height: 90px;
-        position: absolute;
-        top: 0px;
-        left: 20%;
-        background-color: #F7F7F7;
-        
-    }
 }
     
 
@@ -246,30 +224,6 @@ float: left;
 
 
 @media (max-width: 640px){
-    .container {
-        width: 100%;
-        height: auto;
-        padding:0;
-        box-shadow: 2px 2px 10px #CCC;
-    }
-
-.nav-img {
-    height: 80px;
-    width: auto;
-    position: absolute;
-    top: 5px;
-    left: -15%;
-}
-
-.logo_back {
-    width: 90px;
-    height: 90px;
-    position: absolute;
-    top: 0px;
-    left: 0%;
-    background-color: #F7F7F7;
-}
-
 .dropdown{
 display: inline-block;
 cursor: pointer;
@@ -282,12 +236,12 @@ background-color:#0099d4;
 width: 100%;
 height: auto;
 }
-    .port {
+.port {
         width: 100%;
         display: block;
         margin: 0 auto;
         height: auto;
-    }
+}
 .dropbut{
 padding-right: 10px;
 padding-top: 5px;
