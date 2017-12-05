@@ -232,9 +232,7 @@ float: left;
 
 
 @media (max-width: 640px){
-.skilltitle{
-    display:none;
-}
+
 .dropdown{
 display: inline-block;
 cursor: pointer;
@@ -303,4 +301,7 @@ padding-top: 3.4%;
 display: none;
 }
 .show {display:block;}
+}
+.skilltitle {
+    display: none;
 }
