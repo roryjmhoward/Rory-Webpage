@@ -13,45 +13,7 @@
     <meta name="description" content="Barncroft Developers, run by Rory Howard a young Web Developer.Need a website for your business? or even just a face lift, whatever it may be I would be happy to help." />
 </head>
 <header>
-    <nav>
-        <div class="blank_nav">
-        </div>
-        <div class="nav2">
-            
-
-            <ul>
-                <li>
-                    <a id="home" href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">About Me</a>
-                </li>
-                <li>
-                    <a href="#">Skills</a>
-                </li>
-                <li>
-                    <a href="#">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-            <div class="dropbut">
-                <button class="dropdown" onclick="dropdown(); myFunction(this)">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                    <div id="mydropdown" class="drop-content">
-                        <a href="#">Home</a>
-                        <a href="#">About Me</a>
-                        <a href="#">Skills</a>
-                        <a href="#">Portfolio</a>
-                        <a href="#">Contact</a>
-                    </div>
-                </button>
-            </div>
-        </div>
-    </nav>
+    
 </header>
 <body>
     <div class="container">
@@ -60,11 +22,11 @@
         </div>
         <img class="top-banner slide" src="img/img3_C.png">
         <img class="top-banner slide" src="img/img2_C.png">
-        <img class="top-banner slide" src="img/img1_C.png">
-        <div class="backdrop-plain">
-            <h1 style="text-align: center;">About Me</h1>
+        <img id="about" class="top-banner slide" src="img/img1_C.png">
+        <div  class="backdrop-plain">
+            <h1  style="text-align: center;">About Me</h1>
             <h1 style="text-align: center;font-size:11px;">&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;</h1>
-            <p style="text-align:center;">
+            <p  style="text-align:center;">
                 Hello, my name is Rory Howard and I manage Barncroft Developers.
                 I am a young Web Developer from the UK. All my life I have loved computers and their capabilities
                 to create amazing products. From a very young age I have been coding and have a very keen passion
@@ -83,7 +45,7 @@
             <p style="color:white;font-size:16px;font-family: 'Permanent Marker', cursive;">I would love to help please<a id="contactme" href="#"> contact</a> me</p>
         </div>
         <div class="backdrop-plain">
-            <h1 style="text-align: center;">My Skills</h1>
+            <h1 id="skills" style="text-align: center;">My Skills</h1>
             <h1 style="text-align: center;font-size:11px;">
                 &#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;
             </h1>
@@ -118,7 +80,7 @@
         <h1 style="text-align: center;font-size:11px;margin-bottom:4%;">
             &#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;&#62;&#60;
         </h1>
-        <div class="carousel">
+        <div id="portfolio" class="carousel">
             <div class="carousel-inner">
                 <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
                 <div class="carousel-item">
@@ -180,7 +142,53 @@
 
 
         </div>
+       
         </div>
+    <nav>
+
+        <div class="blank_nav">
+        </div>
+        <div class="nav2">
+            
+
+            <ul>
+                <li>
+                    <a id="home" href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+            <div class="dropbut">
+                <button class="dropdown" onclick="dropdown(); myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                    <div id="mydropdown" class="drop-content">
+                        <a href="#">Home</a>
+                        <a href="#">About Me</a>
+                        <a href="#">Skills</a>
+                        <a href="#">Portfolio</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="logo_back">
+            <img class="nav-img" src="img/barn_dev_logo.png">
+        </div>
+    </div>
     <script src="javascript.js" type="text/javascript"></script>
 </body>
 
