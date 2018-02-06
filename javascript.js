@@ -71,6 +71,14 @@ window.onclick = function(event){
 		}
 	}
 }
+
+
+
+
+
+
+
+
 var slideIndex = 0;
 carousel();
 
